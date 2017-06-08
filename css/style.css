@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.4; }
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: 1em;
+  font-weight: normal; }
+
+ul, li {
+  list-style: none; }
+
+hr {
+  display: block;
+  border: none;
+  height: 1px;
+  background: #eee; }
+
+input, select {
+  vertical-align: middle; }
+
+button, input, select, textarea {
+  background: transparent;
+  border: 1px solid #ddd;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-family: Arial, sans-serif;
+  font-family: inherit; }
+
+table {
+  border-collapse: collapse; }
+  table td, table th {
+    border: 1px solid #ddd; }
