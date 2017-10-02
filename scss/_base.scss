@@ -39,3 +39,35 @@ table {
     border: 1px solid #ddd;
   }
 }
+// Layout
+$gutter: 20px;
+.-frame {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px + $gutter*2;
+  padding-left: $gutter;
+  padding-right: $gutter;
+}
+.-wrap {
+  display: block;
+  padding-left: $gutter;
+  padding-right: $gutter;
+}
+.-grid {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: -$gutter/2;
+  margin-right: -$gutter/2;
+}
+.-cell {
+  display: block;
+  padding-left: $gutter/2;
+  padding-right: $gutter/2;
+}
+.block-holder {
+  display: block;
+  min-height: 200px;
+  min-width: 100px;
+  background: #ddd;
+}
